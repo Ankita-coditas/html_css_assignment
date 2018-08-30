@@ -1,0 +1,76 @@
+body{
+	margin-top: 50px;
+	border-radius: 3px;
+	background-color:  #ffffff;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.12);
+	width: 500px;
+	height: 480px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family: sans-serif;
+}
+.login-header{
+	padding: 10px 0px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color:  #17a2d4;
+	width: 500px;
+	height: 80px;
+	text-align: center;
+
+}
+.loginform{
+	padding: 20px 25px;
+}
+.login-header p{
+	color:  #f4f4f4;
+	font-size: 30px;/* Approximation due to font substitution */
+	font-weight: 800;
+}
+input[type=text]{
+	border-radius: 3px;
+	border-width: 1px;
+	border-color:  #e8e8e8;
+	border-style: solid;
+	background-color:  #f6f6f6;
+	width: 433px;
+	height: 56px;
+	padding-left: 15px;
+	margin-bottom: 20px;
+	color:  #969696;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+}
+button{
+	color:  #ffffff;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	border: none;
+
+}
+.btnlogin{
+	background-color:  #17a2d4;
+	width: 450px;
+	height: 60px;
+	text-align:left;
+	padding-left: 15px;
+}
+.btnfacebook{
+	background-color:  #3b5998;
+	width: 210px;
+	height: 60px;
+	text-align: center;
+}
+.btngoogle{
+	background-color:  #d34836;
+	width: 210px;
+	height: 60px;
+	text-align: center;
+}
+a{
+	color:  #000000;
+	font-size: 18px;/* Approximation due to font substitution */
+	font-weight: 400;
+}
